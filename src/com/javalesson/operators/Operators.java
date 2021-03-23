@@ -20,5 +20,9 @@ public class Operators {
         System.out.println("e = " + e);
         System.out.println("f = " + f);
         System.out.println("g = " + g);
+
+
+        a = a + 5;
+        System.out.println("New a = " + a);
     }
 }
