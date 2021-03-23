@@ -41,7 +41,7 @@ public class HelloWorld {
         System.out.println("b = " + b);
         System.out.println("c = " + c);
         System.out.println("a = " + a);
-        System.out.println("MtLongValue = " + myLongValue);
+        System.out.println("MyLongValue = " + myLongValue);
 
         boolean b1 = true;
         boolean b2 = false;
@@ -52,6 +52,15 @@ public class HelloWorld {
 
         short someShort = b;
         int someInt = someShort;
-        System.out.println("someShort" + someInt);
+
+        someShort = (short) someInt;
+
+        System.out.println("myLongValue = " + myLongValue);
+        someInt = (int) myLongValue;
+        System.out.println("someInt = " + someInt);
+
+/*        System.out.println("someInt" + someInt);
+        System.out.println("someShort" + someShort);
+        System.out.println("someShort" + someShort);*/
     }
 }
