@@ -46,5 +46,7 @@ public class HelloWorld {
         boolean b1 = true;
         boolean b2 = false;
 
+        String s = "some string" + " some other string";
+        System.out.println(s);
     }
 }
