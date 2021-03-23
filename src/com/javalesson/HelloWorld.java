@@ -18,6 +18,9 @@ public class HelloWorld {
 
         float floatResult = myFloatVal / 3;
         System.out.println("FloatResult = " + floatResult);
+        double myNewDouble = 23.56;
+
+        System.out.println("MyDoubleResult = " + myNewDouble / 3);
 
         System.out.println("b = " + b);
         System.out.println("c = " + c);
