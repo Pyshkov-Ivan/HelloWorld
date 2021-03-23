@@ -37,11 +37,23 @@ public class Operators {
         double res1 = 2 * n++;
         double res2 = 2 * ++m;
 
-        System.out.println("Res1 = " + res1);
-        System.out.println("Res2 = " + res2);
+//        System.out.println("Res1 = " + res1);
+//        System.out.println("Res2 = " + res2);
 
 //      == != < > <= >= && || ?:
 
+        int x = 3;
+        int y = 5;
+        int z = 8;
+
+        boolean boolVal = n >= m;
+        System.out.println("BoolVal = " + boolVal);
+
+        boolean boolVal2 = y > z;
+
+        boolean resulBoolean = boolVal && boolVal2;
+
+        System.out.println("resulBoolean = " + resulBoolean);
 
     }
 }
