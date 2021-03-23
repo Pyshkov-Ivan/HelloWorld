@@ -39,5 +39,9 @@ public class Operators {
 
         System.out.println("Res1 = " + res1);
         System.out.println("Res2 = " + res2);
+
+//      == != < > <= >= && || ?:
+
+
     }
 }
