@@ -38,11 +38,13 @@ public class HelloWorld {
         System.out.println("Sum Characters = ");
         System.out.println("chars: " + char1 + char2 + char3 + char4 + char5);
 
-
         System.out.println("b = " + b);
         System.out.println("c = " + c);
         System.out.println("a = " + a);
         System.out.println("MtLongValue = " + myLongValue);
+
+        boolean b1 = true;
+        boolean b2 = false;
 
     }
 }
