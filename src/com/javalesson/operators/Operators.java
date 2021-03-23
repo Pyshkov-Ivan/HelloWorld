@@ -3,7 +3,7 @@ package com.javalesson.operators;
 public class Operators {
 
     public static void main(String[] args) {
-//      + - / * %
+//       + - / * %
         double a = 10;
         double b = 3;
 
