@@ -36,7 +36,7 @@ public class HelloWorld {
         System.out.println("Char5 = " + char5);
 
         System.out.println("Sum Characters = ");
-        System.out.println(char1 + char2 + char3 + char4 + char5);
+        System.out.println("chars: " + char1 + char2 + char3 + char4 + char5);
 
 
         System.out.println("b = " + b);
