@@ -63,7 +63,13 @@ public class HelloWorld {
 
         System.out.println("someIntToDouble = " + someIntToDouble);
 
+        double someLongToDouble = myLongValue;
 
+        System.out.println("someLongToDouble = " + someLongToDouble);
+
+        long someDoubleToLong = (long) someLongToDouble;
+
+        System.out.println("someDoubleToLong = " + someDoubleToLong);
 /*        System.out.println("someInt" + someInt);
         System.out.println("someShort" + someShort);
         System.out.println("someShort" + someShort);*/
