@@ -24,10 +24,10 @@ public class Operators {
 
 //        a = a + 5;
 //        a += 5;
-        a++;
+        ++a;
         System.out.println("New a = " + a);
 
-        b--;
+        --b;
         System.out.println("New b = " + b);
     }
 }
