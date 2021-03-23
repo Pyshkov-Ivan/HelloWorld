@@ -26,7 +26,7 @@ public class HelloWorld {
         char char2 = 'b';
         char char3 = '\n';
         char char4 = '^';
-        char char5 = '\u00A9';
+        char char5 = '\u00B6';
 
         System.out.println("Characters");
         System.out.println("Char1 = " + char1);
@@ -34,6 +34,9 @@ public class HelloWorld {
         System.out.println("Char3 = " + char3);
         System.out.println("Char4 = " + char4);
         System.out.println("Char5 = " + char5);
+
+        System.out.println("Sum Characters = ");
+        System.out.println(char1 + char2 + char3 + char4 + char5);
 
 
         System.out.println("b = " + b);
