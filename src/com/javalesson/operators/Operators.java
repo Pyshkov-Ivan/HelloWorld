@@ -53,7 +53,12 @@ public class Operators {
 
         boolean resulBoolean = boolVal || boolVal2;
 
+
         System.out.println("resulBoolean = " + resulBoolean);
+//      Если x<y то True то возвращаем x, иначе False то возвращаем y
+        int res = x < y ? x : y;
+
+        System.out.println("Ternary res = " + res);
 
     }
 }
