@@ -59,9 +59,9 @@ public class HelloWorld {
         someInt = (int) myLongValue;
         System.out.println("someInt = " + someInt);
 
-        double someDouble = myFloatVal;
+        double someIntToDouble = someInt;
 
-        System.out.println("someDouble = " + someDouble);
+        System.out.println("someIntToDouble = " + someIntToDouble);
 
 
 /*        System.out.println("someInt" + someInt);
