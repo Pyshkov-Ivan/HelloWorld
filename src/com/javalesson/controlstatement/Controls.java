@@ -11,10 +11,13 @@ public class Controls {
         }
 
 
-        int testScore = 95;
-        if (testScore>90)
-            System.out.println("Excellent");
-
-
+        int testScore = 75;
+        System.out.println("You've got");
+        if (testScore >= 90) {
+            System.out.println("an Excellent");
+        } else {
+            System.out.println("a bad");
+        }
+        System.out.println("mark");
     }
 }
