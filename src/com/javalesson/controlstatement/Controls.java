@@ -11,7 +11,7 @@ public class Controls {
         }
 
 
-        int testScore = 75;
+        int testScore = 50;
         System.out.println("You've got");
         if (testScore >= 90) {
             System.out.println("an Excellent");
