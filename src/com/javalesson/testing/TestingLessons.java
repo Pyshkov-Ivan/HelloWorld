@@ -2,7 +2,7 @@ package com.javalesson.testing;
 
 public class TestingLessons {
     public static void main(String[] args) {
-        int Regress = 80;
+        /*int Regress = 80;
         System.out.println("So");
         if (Regress >= 250) {
             System.out.println("Mission");
@@ -12,7 +12,20 @@ public class TestingLessons {
             System.out.println("Not Finished");
         } else {
             System.out.println("Failed");
+        }*/
+
+        int Regress = 275;
+        int currentRegress = 0;
+        int tes = 20;
+        int days = 0;
+
+        while (currentRegress < Regress) {
+            currentRegress += tes;
+            days++;
+            System.out.println("Days " + days + " - " + currentRegress);
+
         }
+
 
     }
 }
