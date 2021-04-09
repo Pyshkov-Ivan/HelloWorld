@@ -14,7 +14,7 @@ public class TestingLessons {
             System.out.println("Failed");
         }*/
 
-        int Regress = 275;
+        /*int Regress = 275;
         int currentRegress = 0;
         int tes = 10;
         int days = 0;
@@ -24,7 +24,15 @@ public class TestingLessons {
             days++;
             System.out.println("Days " + days + " - " + currentRegress);
 
-        } while (currentRegress < Regress || days < 14);
+        } while (currentRegress < Regress || days < 14);*/
+        int Regress = 274;
+        int test = 1;
+        for (int i = 1; i < Regress; i++) {
+            test *= i;
+            System.out.println("Regress = " + test);
+        }
+
+        System.out.println("Regress done = " + test);
 
 
     }
