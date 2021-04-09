@@ -16,15 +16,15 @@ public class TestingLessons {
 
         int Regress = 275;
         int currentRegress = 0;
-        int tes = 20;
+        int tes = 10;
         int days = 0;
 
-        while (currentRegress < Regress) {
+        do {
             currentRegress += tes;
             days++;
             System.out.println("Days " + days + " - " + currentRegress);
 
-        }
+        } while (currentRegress < Regress || days < 14);
 
 
     }
