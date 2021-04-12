@@ -27,8 +27,8 @@ public class TestingLessons {
         } while (currentRegress < Regress || days < 14);*/
         int Regress = 274;
         int test = 1;
-        for (int i = 1; i < Regress; i++) {
-            test *= i;
+        for (int i = 1; i <= Regress; i++) {
+            test = i;
             System.out.println("Regress = " + test);
         }
         System.out.println("Regress done = " + test);
