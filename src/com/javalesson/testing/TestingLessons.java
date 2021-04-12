@@ -31,7 +31,6 @@ public class TestingLessons {
             test *= i;
             System.out.println("Regress = " + test);
         }
-
         System.out.println("Regress done = " + test);
 
 
