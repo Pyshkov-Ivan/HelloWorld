@@ -33,6 +33,8 @@ public class TestingLessons {
         }
         System.out.println("Regress done = " + test);
 
+        for (int i = 10; i >= 1; i--)
+            System.out.println("I = " + i);
 
     }
 }
