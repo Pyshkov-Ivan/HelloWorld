@@ -2,44 +2,19 @@ package com.javalesson.testing;
 
 public class TestingLessons {
     public static void main(String[] args) {
-        /*int Regress = 80;
-        System.out.println("So");
-        if (Regress >= 250) {
-            System.out.println("Mission");
-            System.out.println("Complete");
-        } else if (Regress >= 125) {
-            System.out.println("Mission");
-            System.out.println("Not Finished");
-        } else {
-            System.out.println("Failed");
-        }*/
+        System.out.println("Hello World!!!");
+        byte b = 10;
+        short c = 200;
+        int a = b + 23;
+        long myLongValue = 123_456_789_876L;
 
-        /*int Regress = 275;
-        int currentRegress = 0;
-        int tes = 10;
-        int days = 0;
+        float myFloatValue = 23.56F;
+        double myDoubleValue = 56.45d;
 
-        do {
-            currentRegress += tes;
-            days++;
-            System.out.println("Days " + days + " - " + currentRegress);
+        System.out.println("byte b = " + b);
+        System.out.println("short c = " + c);
+        System.out.println("int a = " + a);
 
-        } while (currentRegress < Regress || days < 14);*/
-        int Regress = 274;
-        int test = 1;
-        for (int i = 1; i <= Regress; i++) {
-            test = i;
-            System.out.println("Regress = " + test);
-        }
-        System.out.println("Regress done = " + test);
 
-        /*for (int i = 10; i >= 1; i--) {
-            System.out.println("I = " + i);
-        }*/
-        int i = 10;
-        while (i >= 1) {
-            System.out.println("I = " + i);
-            i--;
-        }
     }
 }
