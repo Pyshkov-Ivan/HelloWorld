@@ -2,25 +2,21 @@ package com.javalesson.testing;
 
 public class TestingLessons {
     public static void main(String[] args) {
+        int factorialLimit = 10;
+        int factorial = 1;
+        for (int i = 1; i < factorialLimit; i++) {
+            factorial *= i;
+            System.out.println("Final = " + factorial);
+        }
+        System.out.println("Final factorial value = " + factorial);
 
-        int i = 10;
-        {
-            int k = 15;
+//        for (int i = 10; i > 1; i--) {
+//            System.out.println("I = " + i);
+//        }
+        int i =10;
+        while (i>=1) {
             System.out.println("I = " + i);
-            System.out.println("K = " + k);
+            i--;
         }
-
-        int testScore = 95;
-        System.out.println("You've got");
-        if (testScore >= 90) {
-            System.out.println("an Excellent");
-        } else if (testScore >= 75) {
-            System.out.println("a Good");
-        } else if (testScore >= 60) {
-            System.out.println("a Satisfactory");
-        } else {
-            System.out.println("an Excellent");
-        }
-        System.out.println("mark");
     }
 }
