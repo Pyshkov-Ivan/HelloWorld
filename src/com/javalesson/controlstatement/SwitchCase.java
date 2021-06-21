@@ -3,22 +3,28 @@ package com.javalesson.controlstatement;
 public class SwitchCase {
 
     public static void main(String[] args) {
-        int choice = 5;
-        switch (choice) {
-            case 1:
-                System.out.println("You chose one");
+        String dayOfTheWeek = args[0];
+        switch (dayOfTheWeek.toLowerCase()) {
+            case "monday":
+                System.out.println("This if the first working day");
                 break;
-            case 2:
-                System.out.println("You chose two");
+            case "tuesday":
+                System.out.println("This if the second working day");
                 break;
-            case 3:
-                System.out.println("You chose three");
+            case "wednesday":
+                System.out.println("This if the third working day");
                 break;
-            case 4:
-                System.out.println("You chose four");
+            case "thuesday":
+                System.out.println("This if the fourth working day");
+                break;
+            case "friday":
+                System.out.println("This if the fifth working day");
+                break;
+            case "saturday": case "sunday":
+                System.out.println("Finally weekend");
                 break;
             default:
-                System.out.println("Unsupported option");
+                System.out.println("Noty a day of the week");
         }
         System.out.println("Final string");
     }
