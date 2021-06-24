@@ -5,8 +5,13 @@ public class Methods {
         printMessage("Alex");
         int a = 5;
         int b = 10;
-        calcRectangleSquare(a, b);
-        //calcRectangleSquare(5,10);
+        int rectangleSquare = calcRectangleSquare(a, b);
+        int square = calcSquare(b);
+        System.out.println("Rectangle square = " + rectangleSquare);
+        System.out.println("Square = " + square);
+
+        int sumOfSquaers = rectangleSquare + square;
+        System.out.println("Sum of square = " + sumOfSquaers);
 
     }
 
@@ -14,8 +19,12 @@ public class Methods {
         System.out.println("Hello " + name + "!!!");
     }
 
-    static void calcRectangleSquare(int x, int y) {
+    static int calcRectangleSquare(int x, int y) {
         int square = x * y;
-        System.out.println("Rectangle square = " + square);
+        return square;
+    }
+
+    static int calcSquare(int x) {
+        return x * x;
     }
 }
