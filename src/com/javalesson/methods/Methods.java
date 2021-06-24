@@ -5,13 +5,10 @@ public class Methods {
         printMessage("Alex");
         int a = 5;
         int b = 10;
-        int rectangleSquare = calcRectangleSquare(a, b);
-        int square = calcSquare(b);
-        System.out.println("Rectangle square = " + rectangleSquare);
-        System.out.println("Square = " + square);
+        System.out.println("Rectangle square = " + calcRectangleSquare(a, b));
+        System.out.println("Square = " + calcSquare(b));
 
-        int sumOfSquaers = rectangleSquare + square;
-        System.out.println("Sum of square = " + sumOfSquaers);
+        System.out.println("Sum of square = " + (calcRectangleSquare(a, b) + calcSquare(b)));
 
     }
 
